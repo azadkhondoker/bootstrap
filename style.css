@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+mt-10{
+    margin-top: 10px;
+}
+header nav{
+    color: transparent;
+}
+.hero-card-area .card{
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+.hero-card-area .card::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.5;
+}
+.hero-area {
+    background: url(assets/sports-g03ac0535c_1920.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+.hero-bottom .row .card img{
+    max-height: 250px;
+}
+.hero-bottom .row .card h3{
+   
+    text-align: center;
+    margin: 10px 0;
+}
+.hero-bottom .hero-bottom-title{
+    
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+
+}  
+.hero-bottom .hero-bottom-title .row .card p{
+    text-align: justify;
+}
+.hero-bottom{
+    background: url(assets/img/bg2.jpg) no-repeat center scroll;
+    background-size: cover;
+    margin-top: -22px;
+}
+.hero-bottom .hero-bottom-title .row{
+    display: flex;;
+}
+.text-card .card .card-body h5{
+    text-align:center;
+}
+.text-card .card .card-body p{
+    text-align: center;
+}
+.text-card .card {
+    padding: 15px 10px;
+}
+.after-footer .pic-card .row img{
+    max-height: 250px;
+}
+.after-footer{
+    margin-top: 20px;
+    background: url(assets/sports-g03ac0535c_1920.jpg) no-repeat center scroll;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.after-footer{
+    padding-bottom:200px;
+}
+.picture{
+    margin-top: -50px;
+}
+
+ 
